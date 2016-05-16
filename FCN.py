@@ -6,8 +6,8 @@ import numpy as np
 import time, os
 import datetime
 
-DATA_DIR = '/data/SBDD_Release/dataset/'
-# DATA_DIR = None
+# DATA_DIR = '/data/SBDD_Release/dataset/'
+DATA_DIR = None
 if DATA_DIR is None:
     raise Exception('DATA_DIR is not set')
 
