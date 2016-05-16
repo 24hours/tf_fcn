@@ -63,3 +63,5 @@ target/
 
 # filter weight
 *.npy
+checkpoint/*
+info/*
