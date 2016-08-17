@@ -46,7 +46,7 @@ def SGDSolver(loss, learning_rate, momentum=.99):
     grads = tf.gradients(loss, lr1 + lr2)
 
     grads1 = grads[:len(lr1)]
-    grads2 = grads[len(lr2):]
+    grads2 = grads[-len(lr2):]
 
     opt1 = tf.train.MomentumOptimizer(
                         learning_rate = learning_rate,
